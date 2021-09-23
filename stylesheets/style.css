@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin-top: 56px;
+    width: 100%;
+    background-color: #181818;
+    height: 800px;
+}
