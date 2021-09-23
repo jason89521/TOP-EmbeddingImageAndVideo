@@ -1,0 +1,202 @@
+.primary{
+    flex:2.5;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.tags{
+    color: #3ba6f7;
+}
+
+.primary-interaction{
+    display: flex;
+    gap: 30px;
+}
+
+.primary-interaction span{
+    font-size: 16px;
+}
+
+.views-and-date{
+    color: #aaa5a5;
+    margin-right: auto;
+}
+
+.primary-interaction button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.primary-description{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    margin: 30px 0;
+    border-top: .2px solid #aaa5a5;
+    border-bottom: .2px solid #aaa5a5;
+}
+
+.chanel-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.chanel-info > img{
+    border-radius: 50%;
+}
+
+.name-and-subscribers > h4{
+    margin: 0;
+}
+
+.name-and-subscribers > span{
+    font-size: 14px;
+    color: #aaa5a5;
+}
+
+.chanel-info > button{
+    font-weight: 1000;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 2.5px;
+    margin-left: auto;
+}
+
+.content{
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+.category{
+    display: flex;
+    gap:30px;
+}
+
+.category > button{
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    background-color: #000000;
+}
+
+.category > button:nth-child(2) {
+    align-items: center;
+    padding-left: 30px;
+}
+
+.category > button > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    padding: 10px 30px;
+}
+
+.category > button h3{
+    font-weight: 300;
+    color: #ffffff;
+    margin: 0;
+    text-align: start;
+}
+
+.category > button span{
+    font-size: 14px;
+    color: #aaa5a5;
+    text-align: start;
+}
+
+.category > button a{
+    font-size: 16px;
+    font-weight: 800;
+    color: #aaa5a5;
+}
+
+.content > span{
+    display: inline-block;
+    margin-top: 30px;
+    color: #aaa5a5;
+    font-weight: 1000;
+    font-size: 12px;
+}
+
+.comment-header{
+    display: flex;
+    gap: 60px;
+}
+
+.comment-header > span{
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.comment-header > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.comment-input{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.comment-input > input{
+    background-color: transparent;
+    border: none;
+    border-bottom: .1px solid #aaa5a5;
+    flex: 1;
+    padding-bottom: 5px;
+}
+
+.comment-input > input:focus-visible{
+    outline: none;
+}
+
+.user-comment{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.user-comment-header{
+    margin-top: 0;
+}
+
+.user-comment-header > span:nth-child(2) {
+    color: #aaa5a5;
+    font-size: 14px;
+}
+
+.user-comment-interaction{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.view-replies{
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding:10px 0;
+    color: #3ba6f7;
+}
+
+.view-replies > i{
+    position: absolute;
+    top: 8px;
+}
+
+.view-replies > span{
+    margin-left: 15px;
+}
